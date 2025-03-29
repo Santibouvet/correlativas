@@ -1,7 +1,11 @@
 import java.util.List;
 
 public class Materia {
-    public List<Materia> correlativas;
+    private List<Materia> correlativas;
+
+    public Materia(List<Materia> correlativas){
+        this.correlativas=correlativas;
+    }
 
     public List<Materia> getCorrelativas(){
         return correlativas;
